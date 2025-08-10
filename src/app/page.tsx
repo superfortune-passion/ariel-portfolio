@@ -1,3 +1,4 @@
 ﻿import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-export default function Home() { return (<><Navbar /><main><Hero /></main></>); }
+import AboutSection from "@/components/AboutSection";
+export default function Home() { return (<><Navbar /><main><Hero /><AboutSection /></main></>); }
