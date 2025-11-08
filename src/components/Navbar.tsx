@@ -46,6 +46,8 @@ export default function Navbar() {
           type="button"
           className="md:hidden text-slate-300"
           aria-label="Toggle menu"
+          aria-expanded={open}
+          aria-controls="mobile-menu"
           onClick={() => setOpen(!open)}
         >
           {open ? "✕" : "☰"}
@@ -53,7 +55,7 @@ export default function Navbar() {
       </nav>
 
       {open && (
-        <div className="border-t border-white/8 px-6 py-4 md:hidden">
+        <div id="mobile-menu" className="border-t border-white/8 px-6 py-4 md:hidden">
           <ul className="flex flex-col gap-4">
             {links.map((link) => (
               <li key={link.href}>
