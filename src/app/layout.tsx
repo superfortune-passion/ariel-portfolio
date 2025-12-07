@@ -16,6 +16,18 @@ export const metadata: Metadata = {
   title: "Ariel Orbe | Senior Software Engineer — AI & Full Stack",
   description:
     "Portfolio of Ariel Orbe — 10 years building scalable web applications, AI-driven solutions, and enterprise platforms at Dell, Wherefour, ThoughtWire, and China Bank PH.",
+  openGraph: {
+    title: "Ariel Orbe | Senior Software Engineer",
+    description:
+      "AI & Full Stack portfolio — Dell, Wherefour, ThoughtWire, China Bank PH.",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ariel Orbe | Senior Software Engineer",
+    description: "AI & Full Stack portfolio",
+  },
 };
 
 export default function RootLayout({
