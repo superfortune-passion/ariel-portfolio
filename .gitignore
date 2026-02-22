@@ -43,3 +43,4 @@ next-env.d.ts
 # local commit-history helpers
 _final-snapshot/
 src/components/*.base.tsx
+scripts/

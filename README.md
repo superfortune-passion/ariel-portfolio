@@ -69,7 +69,7 @@ public/
 ### Install and run
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ariel-portfolio.git
+git clone https://github.com/superfortune-passion/ariel-portfolio.git
 cd ariel-portfolio
 npm install
 npm run dev
