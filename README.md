@@ -2,7 +2,7 @@
 
 A production-style personal portfolio built with **Next.js 16**, **React 19**, and **TypeScript**. It presents professional experience, shipped work samples, and contact details in a fast, accessible single-page layout aimed at US software engineering recruiters.
 
-**Live demo:** _Add your Vercel URL after deployment_
+**Live demo:** [Deploy to Vercel](https://vercel.com/new/clone?repository-url=https://github.com/superfortune-passion/ariel-portfolio&project-name=ariel-portfolio&repository-name=ariel-portfolio) — sign in, then add your production URL here
 
 ---
 
@@ -105,7 +105,9 @@ Optimized for [Vercel](https://vercel.com):
 npm run build
 ```
 
-Connect the GitHub repository in the Vercel dashboard, or use the CLI:
+**One-click deploy:** [Import on Vercel](https://vercel.com/new/clone?repository-url=https://github.com/superfortune-passion/ariel-portfolio&project-name=ariel-portfolio&repository-name=ariel-portfolio) (connect GitHub → Deploy).
+
+Or use the CLI after `npx vercel login`:
 
 ```bash
 npx vercel
