@@ -101,10 +101,28 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ```bash
 npm run build
-npm run start
+npm run preview   # serves static output in ./out
 ```
 
-Run locally on port 3000, or host the output on any Node-compatible platform (Docker, VPS, Netlify, Cloudflare Pages, etc.).
+Static export (`output: "export"`) — no Node server required in production.
+
+## Deploy to Cloudflare Pages
+
+| Setting | Value |
+|---------|--------|
+| **Framework preset** | None (or Next.js Static) |
+| **Build command** | `npm run build` |
+| **Build output directory** | `out` |
+| **Node.js version** | `20` |
+| **Root directory** | `/` (repository root) |
+
+**Environment variables (optional):**
+
+| Variable | Value |
+|----------|--------|
+| `NODE_VERSION` | `20` |
+
+Connect your GitHub repo in the Cloudflare dashboard → **Workers & Pages** → **Create** → **Pages** → **Connect to Git**, then use the settings above.
 
 ---
 
