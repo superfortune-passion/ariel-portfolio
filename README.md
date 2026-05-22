@@ -2,7 +2,7 @@
 
 A production-style personal portfolio built with **Next.js 16**, **React 19**, and **TypeScript**. It presents professional experience, shipped work samples, and contact details in a fast, accessible single-page layout aimed at US software engineering recruiters.
 
-**Live demo:** [Deploy to Vercel](https://vercel.com/new/clone?repository-url=https://github.com/superfortune-passion/ariel-portfolio&project-name=ariel-portfolio&repository-name=ariel-portfolio) — sign in, then add your production URL here
+**Live demo:** _Add your production URL when you host the site_
 
 ---
 
@@ -25,7 +25,7 @@ A production-style personal portfolio built with **Next.js 16**, **React 19**, a
 | UI | [React 19](https://react.dev) |
 | Language | [TypeScript](https://www.typescriptlang.org) |
 | Styling | [Tailwind CSS v4](https://tailwindcss.com) |
-| Fonts | [Geist](https://vercel.com/font) via `next/font` |
+| Fonts | Geist via `next/font` |
 | Tooling | ESLint, PostCSS |
 
 ---
@@ -97,21 +97,14 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ---
 
-## Deployment
-
-Optimized for [Vercel](https://vercel.com):
+## Production build
 
 ```bash
 npm run build
+npm run start
 ```
 
-**One-click deploy:** [Import on Vercel](https://vercel.com/new/clone?repository-url=https://github.com/superfortune-passion/ariel-portfolio&project-name=ariel-portfolio&repository-name=ariel-portfolio) (connect GitHub → Deploy).
-
-Or use the CLI after `npx vercel login`:
-
-```bash
-npx vercel
-```
+Run locally on port 3000, or host the output on any Node-compatible platform (Docker, VPS, Netlify, Cloudflare Pages, etc.).
 
 ---
 
