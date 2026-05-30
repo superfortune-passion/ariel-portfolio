@@ -1,4 +1,4 @@
-# Ariel Orbe — Senior Software Engineer Portfolio
+#Senior Software Engineer Portfolio
 
 A production-style personal portfolio built with **Next.js 16**, **React 19**, and **TypeScript**. It presents professional experience, shipped work samples, and contact details in a fast, accessible single-page layout aimed at US software engineering recruiters.
 
